@@ -1,0 +1,37 @@
+{
+    "name": "sachii-safe-logger",
+    "version": "1.1.5",
+    "description": "A lightweight TypeScript library to mask sensitive data (emails, credit cards, phone numbers, API tokens) in logs for security and compliance.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "mask",
+        "logger",
+        "security",
+        "privacy",
+        "gdpr",
+        "pii",
+        "typescript"
+    ],
+    "author": "Sachinandan <sachinandan.priv05@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/node": "^20.19.11",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.4.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    }
+}
