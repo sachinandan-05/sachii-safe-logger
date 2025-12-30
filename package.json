@@ -1,6 +1,6 @@
 {
     "name": "sachii-safe-logger",
-    "version": "1.1.5",
+    "version": "1.2.0",
     "description": "A lightweight TypeScript library to mask sensitive data (emails, credit cards, phone numbers, API tokens) in logs for security and compliance.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
